@@ -127,7 +127,7 @@ export const HeroSection = () => {
               
               {/* Main image container */}
               <div className="relative bg-gradient-to-br from-teal-light to-mint rounded-3xl p-2 shadow-glow">
-                <img src={heroSlides[0].image} alt="Dr. Navita Purohit Vyas" className="w-full h-auto rounded-2xl border-0 object-fill" />
+                <img src={heroSlides[0].image} alt="Dr. Navita Purohit Vyas" className="w-full h-auto rounded-2xl border-0 object-cover" />
               </div>
 
               {/* Floating card */}
